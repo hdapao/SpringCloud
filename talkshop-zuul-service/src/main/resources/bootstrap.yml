@@ -7,3 +7,7 @@ eureka:
   client:
     service-url: # EurekaServer地址,多个地址以','隔开
       defaultZone: http://127.0.0.1:10010/eureka
+zuul:
+  routes:
+    system-server: /system-service/** #映射路径到system服务
+    item-server: /item-service/** # 映射路径到item服务
