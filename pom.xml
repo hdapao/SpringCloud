@@ -15,7 +15,9 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>eureka-serve</module>
-        <module>eureka-client</module>
+        <module>eureka-client-two</module>
+        <module>common</module>
+        <module>eureka-client-one</module>
     </modules>
 
     <dependencyManagement>
@@ -34,6 +36,11 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
         </dependency>
     </dependencies>
     <build>
