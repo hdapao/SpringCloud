@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: eureka-client-two # 应用名称
+    name: eureka-client-one # 应用名称
 
 eureka:
   client:
