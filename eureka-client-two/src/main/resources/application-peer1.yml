@@ -1,0 +1,13 @@
+server:
+  port: 18100
+
+spring:
+  application:
+    name: eureka-client-two # 应用名称
+
+eureka:
+  client:
+    service-url:
+      # 服务注册地址
+      defaultZone: http://peer1:18080/eureka/,http://peer2:18081/eureka/,http://peer3:18082/eureka/
+

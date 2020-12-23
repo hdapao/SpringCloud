@@ -11,5 +11,5 @@ eureka:
   client:
     service-url:
       # 向peer2节点注册自己
-      defaultZone: http://peer1/eureka,http://peer2/eureka
+      defaultZone: http://peer1:18080/eureka,http://peer2:18081/eureka
 
