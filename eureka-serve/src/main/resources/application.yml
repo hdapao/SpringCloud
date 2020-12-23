@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: eureka-server
+server:
+  port: 18080
+eureka:
+  instance:
+    hostname: peer1
+  server:
+    enable-self-preservation: false
+  client:
+    service-url:
+      # 向peer2节点注册自己
+      defaultZone: http://peer2:18081/eureka,http://peer3:18082/eureka
+
