@@ -9,5 +9,5 @@ eureka:
   client:
     service-url:
       # 服务注册地址
-      defaultZone: http://peer1:18080/eureka/,http://peer2:18081/eureka/,http://peer3:18082/eureka/
+      defaultZone: http://peer1:18080/eureka/
 
