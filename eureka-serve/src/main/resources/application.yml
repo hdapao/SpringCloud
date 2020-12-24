@@ -8,4 +8,7 @@ eureka:
     hostname: peer1
   server:
     enable-self-preservation: false
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
 
