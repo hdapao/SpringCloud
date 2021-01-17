@@ -1,14 +1,15 @@
 package cn.com.hdapao;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**
  * @author huihui
  */
-@SpringBootApplication
+//@SpringBootApplication
 public class CacheProductApplication {
     public static void main(String[] args) {
-        SpringApplication.run(CacheProductApplication.class);
+        //SpringApplication.run(CacheProductApplication.class);
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();
     }
 }
